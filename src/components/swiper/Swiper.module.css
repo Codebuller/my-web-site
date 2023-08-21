@@ -1,0 +1,102 @@
+
+.case{
+    width: 300px;
+    height: 371px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(123, 74, 226, 0.50);
+    position: relative;
+	margin-right: 12px;
+	border-radius: 8px;
+  	transition: opacity 0.15s ease;
+    display: none;
+}
+.active{
+    display: block;
+}
+.case_subTitle{
+    width: 240.338px;
+    margin-left: 24px;
+    height: 64.057px;
+    transform: rotate(-0.033deg);
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.case_title{
+    margin-left: 24px;
+    margin-top: 27px;
+    margin-bottom: 8px;
+    display: flex;
+    width: 168.137px;
+    height: 25.119px;
+    transform: rotate(-0.033deg);
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.tegs_container{
+    display: flex;
+    margin-left: 30px;
+    width: 240.338px;
+    gap: 8px;
+    justify-content: flex-start;  
+}
+.teg{
+    width: 106px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(123, 74, 226, 0.50);
+    background-color: rgba(123, 74, 226, 0.10);
+}
+.teg_text{
+    color: #7B4AE2;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.case_image{
+    margin-top: 16px;
+    width: 252px;
+    margin-left: 30px;
+    height: 160px;
+    flex-shrink: 0;
+}
+
+.case_container{
+    display: flex;
+    gap: 56px;
+}
+.slider {
+	width: 100%;
+	
+	overflow: visible;
+  position: relative;
+  white-space: nowrap;
+}
+.list {
+    display: flex;
+    width: 100%;
+    
+    
+    font-size: 2rem;
+    backface-visibility: hidden;
+    transform: translateX(calc(var(--x, 0) * 1%));
+}

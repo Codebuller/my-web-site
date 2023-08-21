@@ -1,0 +1,127 @@
+.contact{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 194px;
+}
+.tag_contact{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 138px;
+height: 45px;
+flex-shrink: 0;
+background: rgba(123, 74, 226, 0.10);
+border-radius: 16px;
+margin-bottom: 24px;    
+}
+.copy_ico:hover{
+    border: 1px solid #7B4AE2;
+    background: #221f21;
+}
+.tag_contact_text{
+    align-self: center;
+    color: #7B4AE2;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+
+align-content: center;
+}
+.contact_title{
+    
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 663px;
+height: 60px;
+flex-shrink: 0;
+margin-bottom: 60px;
+}
+.contact_tg_email{
+    margin: auto;
+    width: 663px;
+    display: grid;
+    flex-shrink: 0;
+    grid-template-columns: 45% 55%;
+    align-items: center;
+}
+.tg{
+    grid-column: 1;
+}
+.tg_rectangle:hover{
+        background: rgba(123, 74, 226, 0.25);
+    }
+.email{
+    position: relative;
+    
+    grid-column: 2;
+}
+.email_title{
+    margin-top: 4px;
+    color: #7B4AE2;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.email_adress{
+    
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-sizing: border-box;
+    margin-top: 1px;
+    color: #5c5656;
+}
+.toTop:hover{
+text-decoration: underline;
+}
+.email_adress:hover{
+    
+    background: #221f21;
+    box-sizing: border-box;
+}
+.tg_text{
+    color: rgba(123, 74, 226, 0.50);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.tg_rectangle{
+    display: flex;
+    align-items: center;
+    width: 212px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(123, 74, 226, 0.50);
+}
+.toTop{
+    margin-top: 24px;            
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toTop:active{
+    color: rgba(123, 74, 226, 0.50);;
+}
