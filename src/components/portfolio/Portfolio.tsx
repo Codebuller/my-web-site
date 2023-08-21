@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react"
 import styles from './Portfolio.module.css'
 import Swiper from "../swiper/Swiper"
 export type Cases = {

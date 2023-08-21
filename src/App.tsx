@@ -1,9 +1,7 @@
-import React, { useEffect } from 'react'
 import './App.css'
-import { ReactElement } from "react";
 import Navbar from './components/navbar/Navbar';
 import MainScreen from './components/mainScreen/MainScreen';
-import Portfolio, { Cases } from './components/portfolio/Portfolio';
+import Portfolio from './components/portfolio/Portfolio';
 import AboutMe from './components/aboutMe/AboutMe';
 import Skills from './components/skills/Skills';
 import Contact from './components/contacts/Contact';

@@ -1,4 +1,3 @@
-import React from "react"
 import styles from './Contact.module.css'
 const Contact = () => {
     const copyTextArea = (event:any) =>{
@@ -6,7 +5,7 @@ const Contact = () => {
         if(document.getElementById('cpd')!==null)
         return undefined;
         event.target.parentNode.lastChild.insertAdjacentHTML('afterend', '<div style="justify-content: center;display:flex;left:0;right:0;margin-left:auto;margin-right:auto;position:absolute;color:#5c5656;" id="cpd">Скопировано в буфер обмена</div>');  
-        setTimeout(()=> document.getElementById('cpd').remove(), 1000);
+        setTimeout(()=> document?.getElementById('cpd')?.remove(), 1000);
     }
   return (
     <div className={styles.contact}>

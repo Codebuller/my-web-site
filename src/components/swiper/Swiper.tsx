@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useState } from 'react';
 import styles from './Swiper.module.css'
 import { Cases } from "../portfolio/Portfolio";
 
