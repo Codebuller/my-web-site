@@ -25,6 +25,7 @@
     flex-shrink: 0;
     }
     .title{
+        margin-top: 24px;
         width: 663px;
 height: 60px;
 flex-shrink: 0;
@@ -298,7 +299,7 @@ flex-shrink: 0;
         background: rgba(123, 74, 226, 0.2);
     }
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 801px) and (max-width: 3000px) {
     .tag_portfolio{
         display: flex;
         align-items: center;
@@ -548,7 +549,7 @@ flex-shrink: 0;
         flex-shrink: 0;
         color: rgba(123, 74, 226, 0.50);
         font-family: Raleway;
-        font-size: 14px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -574,7 +575,7 @@ flex-shrink: 0;
         flex-shrink: 0;
         color: rgba(123, 74, 226, 0.50);
         font-family: Raleway;
-        font-size: 14px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;

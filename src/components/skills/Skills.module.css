@@ -1,12 +1,98 @@
-.tag_skills{
+
+@media (min-width: 0px) and (max-width: 450px) {
+    .mini_ico{
+       width: 32px;
+       height: 32px;
+    }
+    .tag_skills{
     
-    width: 234px;
-height: 45px;
-background: rgba(123, 74, 226, 0.10);
-border-radius: 16px;
-display: flex;
-margin: auto;
+        width: 234px;
+    height: 45px;
+    background: rgba(123, 74, 226, 0.10);
+    border-radius: 16px;
+    display: flex;
+    margin: auto;
+    }
+.tag_skills_text{
+    display: flex;
+width: 214px;
+height: 36px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #7B4AE2;
+text-align: center;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
+.skills{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.skills_title{
+    color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 4x0px;
+}
+.skills_one_title{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.skills_one_ico{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 50px;
+}
+
+.skills_two_subTitle{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.skills_two_ico{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 50px;
+    }
+    }
+    @media (min-width: 451px) and (max-width: 3000px) {
+    .tag_skills{
+    
+        width: 234px;
+    height: 45px;
+    background: rgba(123, 74, 226, 0.10);
+    border-radius: 16px;
+    display: flex;
+    margin: auto;
+    }
 .tag_skills_text{
     display: flex;
 width: 214px;
@@ -74,3 +160,4 @@ margin-bottom: 100px;
     gap: 32px;
     margin-bottom: 50px;
 }
+    }
