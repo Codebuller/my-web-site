@@ -71,11 +71,11 @@ const Portfolio = ({array}:Cases) => {
             <h1 className={styles.fork_text}>Forks</h1>    
         </button> 
     </div>
-    {window.innerWidth>400 
-    ?<div className={styles.case_container}>
+    {window.innerWidth>500 
+    ?<ul className={styles.case_container}>
         {sortedArray.map((el:{image:string,title:string,subTitle:string,type:number,tegs:string[],link:string
         })=>
-        <div key={el.title} className={styles.case}>
+        <li key={el.title} className={styles.case}>
             <h1 className={styles.case_title}>{el.title}</h1>
             <h3 className={styles.case_subTitle}>{el.subTitle}</h3>
             <div className={styles.tegs_container}>
@@ -88,10 +88,10 @@ const Portfolio = ({array}:Cases) => {
             <a href={el.link} target="_blank_">
             <img className={styles.case_image} src={el.image} alt="Problem"/>
             </a>
-        </div>
+        </li>
         )}
 
-    </div>
+    </ul>
     :<Swiper array={sortedArray}/>
 }
     </div>

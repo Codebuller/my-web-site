@@ -61,7 +61,7 @@ letter-spacing: 1.6px;
         flex-shrink: 0;
         grid-template-columns: 24px calc(100% - 48px) 24px ;
         grid-template-rows: 182.329px 400px;
-        margin-bottom: 160px;
+        margin-bottom: 20px;
         margin-top: 100px;
         row-gap: 32px;
     }

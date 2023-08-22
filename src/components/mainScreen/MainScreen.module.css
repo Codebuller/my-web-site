@@ -139,7 +139,7 @@
       line-height: normal;
     }
   }
-    @media (min-width: 451px) and (max-width: 1200px) {
+    @media (min-width: 601px) and (max-width: 1200px) {
           .git:hover{
             fill: #7B4AE2;
             transition-duration: .3s;
@@ -283,17 +283,17 @@
       }
       
   }
-  @media (min-width: 0px) and (max-width: 450px) {
+  @media (min-width: 0px) and (max-width: 600px) {
 
     .mainScreen{
       display: grid;
       align-items: center;
       margin-top: 47px;
       grid-template-columns: 45px calc(100% - 90px) 45px;
-      height:600px;
+      height:650px;
       margin-left: 0;
       width: 100vw;
-      grid-template-rows: 200px 250px 70px;
+      grid-template-rows: 20vh 250px 70px;
     }
     .tag_hi{
         margin-bottom: 10px;        
@@ -379,8 +379,10 @@
         position: relative;
       }
       .avatar{
-       max-width: none;
-       width: 100%; 
+       max-width: 100%;
+       max-height: 100%;
+       display: flex;
+       margin: auto;
         
       }
       .firstScreen_rigth{

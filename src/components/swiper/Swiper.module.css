@@ -1,10 +1,33 @@
+.left_arrow{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: 0;
+    transform: rotate(360deg) scaleX(-1);
+    fill: #7b4ae280;
+}
 
+.right_arrow{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    right: 0;
+    fill: #7b4ae280;
+
+}
+.disable_arrow{
+    fill: rgba(123, 75, 226, 0.25);
+}
 .case{
     width: 300px;
     height: 371px;
     flex-shrink: 0;
     border-radius: 16px;
-    border: 1px solid rgba(123, 74, 226, 0.50);
+    border: 1px solid #7b4ae280;
     position: relative;
 	margin-right: 12px;
 	border-radius: 8px;

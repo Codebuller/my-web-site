@@ -1,5 +1,8 @@
-
-@media (min-width: 451px) and (max-width: 800px) {
+.case:nth-child(3n+2){
+    background: rgba(123, 74, 226, 0.10);
+}
+@media (min-width: 501px) and (max-width: 800px) {
+    
     .tag_portfolio{
         display: flex;
         align-items: center;

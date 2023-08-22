@@ -37,7 +37,7 @@
     transition-duration: .6s;
   }
 }
-@media (min-width: 0px) and (max-width: 450px) {
+@media (min-width: 0px) and (max-width: 600px) {
   .navbar{
     display: none;
   }
