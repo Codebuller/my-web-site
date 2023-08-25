@@ -38,7 +38,7 @@ const  App = ():any => {
       title:'React study case',
       subTitle:'Просто проект на закрепление React, с кучей логики, но без дизайна.',
       tegs:['React JS'],
-      link:'',
+      link:'https://firststep-6nwb.vercel.app',
       type:1
     },
   ]

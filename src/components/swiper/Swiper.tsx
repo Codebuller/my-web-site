@@ -59,7 +59,7 @@ const Swiper = ({array}:Cases) => {
               </g>
               </g>
             </svg>
-            <svg onClick={()=>{handleSwipeLeft()}} className={ activeIndex===array.length-1 ?  `${styles.right_arrow} ${styles.disable_arrow} ` : `${styles.right_arrow}`} width="33" height="32" viewBox="0 0 33 32"  xmlns="http://www.w3.org/2000/svg">
+            <svg onClick={()=>{handleSwipeLeft()}} className={ activeIndex===array.length-1 ?  `${styles.right_arrow} а${styles.disable_arrow} ` : `${styles.right_arrow}`} width="33" height="32" viewBox="0 0 33 32"  xmlns="http://www.w3.org/2000/svg">
               <g id="Desktop" clip-path="url(#clip0_0_1)">
              
               <g id="WorkCadsList">

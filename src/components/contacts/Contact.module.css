@@ -1,3 +1,6 @@
+.toTop_text{
+    color: #7B4AE2;
+}
 @media (min-width: 769px) and (max-width: 3000px) {
 .contact{
     width: 80vw;
