@@ -25,12 +25,13 @@ const MainScreen: React.FC = () => {
         
         <div className={styles.firstScreen_rigth}>
           <div className={styles.firstScreen_rigth_download_sv}>
-            <h1 className={styles.firstScreen_rigth_download_sv_text}>Скачать резюме</h1>
-            <svg style={{minHeight: "16px",minWidth:"16px"}} xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <a download='/CV.pdf' href="/CV.pdf"><h1 className={styles.firstScreen_rigth_download_sv_text}>Скачать резюме</h1></a>
+            <a download='/CV.pdf' href="/CV.pdf"><svg style={{minHeight: "16px",minWidth:"16px"}} xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
               <path d="M8 2V11.5" stroke="#7B4AE2" strokeOpacity="0.5" strokeLinecap="round" strokeLinejoin="round"/>
               <path d="M3.5 7L8 11.5L12.5 7" stroke="#7B4AE2" strokeOpacity="0.5" strokeLinecap="round" strokeLinejoin="round"/>
               <path d="M2.5 13.5H13.5" stroke="#7B4AE2" strokeOpacity="0.5" strokeLinecap="round" strokeLinejoin="round"/>
-           </svg>
+           </svg></a>
+           
           </div>
           <a href="https://t.me/mainMIG" target="_blank">
             <div className={styles.firstScreen_rigth_contact}>
