@@ -10,8 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "-": "^0.0.1",
+    "@types/react-lazy-load-image-component": "^1.6.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-lazy-load-image-component": "^1.6.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

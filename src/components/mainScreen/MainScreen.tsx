@@ -1,5 +1,6 @@
 import React from "react"
 import styles from './MainScreen.module.css'
+import { LazyLoadImage } from "react-lazy-load-image-component"
 const MainScreen: React.FC = () => {
   
   return (                
@@ -20,7 +21,7 @@ const MainScreen: React.FC = () => {
           </a>
         </div>
         <div className={styles.me_avatar}>
-          <img className={styles.avatar} alt="Something wrong" src="/images/avatar.png"/>
+          <LazyLoadImage src="/images/avatar.png"  alt="Something wrong" className={styles.avatar} />
         </div>
         
         <div className={styles.firstScreen_rigth}>

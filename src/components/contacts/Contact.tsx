@@ -35,8 +35,8 @@ const Contact = () => {
                     <path fillRule="evenodd" clipRule="evenodd" d="M16 18.416L12.684 15.667L1.11499 27.51H30.591L19.235 15.647L16 18.416ZM20.89 14.39L31.892 25.829C31.955 25.607 32 25.377 32 25.134V5.362L20.89 14.39ZM0 5.31601V25.134C0 25.377 0.0450017 25.607 0.108002 25.829L11.147 14.427L0 5.31601ZM31 3.5H1L16 15.519L31 3.5Z" fill="#7B4AE2"/>
                 </svg>
                 <h1 className={styles.email_title}>E-mail:</h1>
-                <h1 onClick={(event)=>copyTextArea(event)} className={styles.email_adress}>ivan_1337_qwerty_339@mail.com</h1>
-                <svg onClick={(event)=>copyTextArea(event)} className={styles.copy_ico} style={{ display: "flex"}} xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <h1 onClick={(e)=>{copyTextArea(e)}} className={styles.email_adress}>ivan_1337_qwerty_339@mail.com</h1>
+                <svg onClick={copyTextArea} className={styles.copy_ico} style={{ display: "flex"}} xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                     <path d="M27 23V5H9" stroke="#7B4AE2" strokeOpacity="0.5" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M23 9H5V27H23V9Z" stroke="#7B4AE2" strokeOpacity="0.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>

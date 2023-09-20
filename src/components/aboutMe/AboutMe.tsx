@@ -1,9 +1,10 @@
 import React from "react"
 import styles from './About.module.css'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const AboutMe:React.FC = () => {
   return (
     <div className={styles.about}>
-        <img src="/images/face.png" className={styles.about_image}></img>
+        <LazyLoadImage src="/images/face.png" className={styles.about_image}/>
         <div className={styles.about_text}>
             <div className={styles.tag_aboutMe}>
                 <h1 className={styles.tag_aboutMe_text}>🧐 About me</h1>

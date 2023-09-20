@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import styles from './Swiper.module.css'
 import { Cases } from "../portfolio/Portfolio";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-const Swiper = ({array}:Cases) => {
+const Swiper = ({array}:{array:Cases[]}) => {
     const [activeIndex, setActiveIndex] = useState(0);
     let touchStartX:number;
   // Логика для прокрутки карточек
@@ -49,7 +50,7 @@ const Swiper = ({array}:Cases) => {
               ))}
             </div>
             <a href={el.link} target="_blank_">
-              <img className={styles.case_image} src={el.image} alt="Problem" />
+              <LazyLoadImage className={styles.case_image} src={el.image} alt="Problem" />
             </a>
             <svg onClick={()=>{handleSwipeRight()}} className={ activeIndex===0 ? `${styles.left_arrow}  ${styles.disable_arrow}` :`${styles.left_arrow}`} width="33" height="32" viewBox="0 0 33 32"  xmlns="http://www.w3.org/2000/svg">
               <g id="Desktop" clip-path="url(#clip0_0_1)">

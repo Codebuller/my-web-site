@@ -1,21 +1,26 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import styles from './Portfolio.module.css'
 import Swiper from "../swiper/Swiper"
+import { LazyLoadImage } from "react-lazy-load-image-component"
 export type Cases = {
-    array:{image:string,
-        title:string,
-        subTitle:string,
-        type:number,
-        tegs:string[],
-        link:string
-        }[]
+    image:string,
+    title:string,
+    subTitle:string,
+    type:number,
+    tegs:string[],
+    link:string
 }
-const Portfolio = ({array}:Cases) => {
-    const [sortedArray,setSortedArray] = useState<any>(array);
+const Portfolio = ({array}:{array:Cases[]}) => {
+    const [sortedArray,setSortedArray] = useState<Cases[]>([]);
+
+    useEffect(()=>{
+        setSortedArray(array)
+    },[])
+
     const [states,setStates] = useState<boolean[]>([false,false]);
     const studentCaseClick = ():void => {
         if(sortedArray.length===array.length || states[1]){
-            let result:any = [];
+            const result:Cases[] = [];
             array.map((el)=>
         {
             if(el.type===1)
@@ -33,7 +38,7 @@ const Portfolio = ({array}:Cases) => {
     }
     const forkClick = () =>{
         if(sortedArray.length===array.length || states[0]){
-            let result:any = [];
+            const result:Cases[] = [];
         array.map((el)=>
         {
             if(el.type===2)
@@ -86,7 +91,8 @@ const Portfolio = ({array}:Cases) => {
             )}
             </div>
             <a href={el.link} target="_blank_">
-            <img className={styles.case_image} src={el.image} alt="Problem"/>
+            
+            <LazyLoadImage src={el.image}  alt="Problem" className={styles.case_image} />
             </a>
         </li>
         )}
